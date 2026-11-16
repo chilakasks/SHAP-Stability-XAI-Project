@@ -123,4 +123,3 @@ ChatGPT was used to assist with notebook/code drafting, debugging guidance, anal
 3. [SHAP documentation](https://shap.readthedocs.io/)
 
 ---
-**Course submission:** the public GitHub repository contains code and results; only one final report submission is needed per team, as directed by the instructor.
