@@ -1,0 +1,57 @@
+{
+  "dataset": "/kaggle/input/datasets/uciml/default-of-credit-card-clients-dataset/UCI_Credit_Card.csv",
+  "train_test_split": 0.2,
+  "split_seed": 2026,
+  "design_note": "Five seeded subsamples at 20-80%, identical 100% controls reuse fitted baseline",
+  "fractions": [
+    0.2,
+    0.4,
+    0.6,
+    0.8,
+    1.0
+  ],
+  "subsample_seeds": [
+    11,
+    23,
+    37,
+    53,
+    71
+  ],
+  "n_estimators": 100,
+  "min_samples_leaf": 2,
+  "shap_eval_n": 200,
+  "features": [
+    "LIMIT_BAL",
+    "SEX",
+    "EDUCATION",
+    "MARRIAGE",
+    "AGE",
+    "PAY_0",
+    "PAY_2",
+    "PAY_3",
+    "PAY_4",
+    "PAY_5",
+    "PAY_6",
+    "BILL_AMT1",
+    "BILL_AMT2",
+    "BILL_AMT3",
+    "BILL_AMT4",
+    "BILL_AMT5",
+    "BILL_AMT6",
+    "PAY_AMT1",
+    "PAY_AMT2",
+    "PAY_AMT3",
+    "PAY_AMT4",
+    "PAY_AMT5",
+    "PAY_AMT6"
+  ],
+  "package_versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.16.3",
+    "shap": "0.54.1",
+    "matplotlib": "3.10.0"
+  },
+  "python": "3.13.18"
+}

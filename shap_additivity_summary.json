@@ -1,0 +1,9 @@
+{
+  "model": "baseline_100%",
+  "class": 1,
+  "observations_checked": 20,
+  "base_value": 0.2209816666666668,
+  "maximum_absolute_error": 5.03819208574896e-13,
+  "absolute_tolerance": 1e-05,
+  "passed": true
+}
